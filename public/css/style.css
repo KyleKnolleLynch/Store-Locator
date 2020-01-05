@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Exo 2";
+  src: url(./fonts/Exo2-Regular.ttf);
+  font-display: swap;
+}
+
+body {
+  font-family: "Exo 2", sans-serif;
+}
+
+.btn {
+  transition: all 500ms ease-out;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  transition: all 500ms ease;
+}
+
+#map {
+  width: 28rem;
+  height: 24rem;
+  margin: 4rem auto;
+}
